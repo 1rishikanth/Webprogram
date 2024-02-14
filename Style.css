@@ -1,17 +1,15 @@
-body{
-    background-image: url(./png-transparent-internet-troll-internet-meme-trollface-laughing-face-meme-sticker-miscellaneous-face-food-thumbnail.png);
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    font-family: 'Poppins',sans-serif;
+    font-weight: bolder;
+    background-color: skyblue;
 }
 .main{
-    margin-top: 200px;
-    margin-bottom: 300px;
-    margin-left: 400px;
-    margin-right: 300px;
-    background-color: url(./png-transparent-internet-troll-internet-meme-trollface-laughing-face-meme-sticker-miscellaneous-face-food-thumbnail.png);
+    height: 100vh;
+    margin-top: 100px;
     text-align: center;
-    opacity: 50;
 }
 button{
-    
        color:white ;
        background-color: black;
        border-radius: 5px;
