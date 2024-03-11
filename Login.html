@@ -18,15 +18,22 @@
     <div class="conatiner">
         <div class="title">
             <h1>Login<br></h1>
-            <input type="text"  value="Username" ><br><br>
-            <input type="text" value="Password"><br>
+            <div id="txt-box">
+            <input id="txt-box-user" type="text"  placeholder="Enter your Username" ><br><br>
+            </div>
+            <div class="psd"></div>
+            <input id="txt-box-password" type="text" placeholder="Enter your password"><br>
+            <i id="eye" class="fa fa-eye"></i>
+            </div>
             <a href="" >Forget Password?</a><br><br>
             <label for="Gender">Gender:</label>
             <input type="radio"  name="request_type" value="male"> male
             <input type="radio"  name="request_type" value="female"> female
             <br><br>
-            <input type="checkbox" class="age_check" value="age">I here by agree that I am 18+
+            <div id="chk">
+            <input id="fadein" type="checkbox" class="age_check" value="age">I here by agree that I am 18+
             <br><br>
+            </div>
             <button class="btn">LOGIN</button>
             <p>Doesn't have an account?<a href="./index.html">Sign Up</a></p>
         </div>
@@ -49,5 +56,7 @@
         </ul>
     </div>
     <footer>FunMeme|Anime memework meme|day-to-day meme<br>(c)2024 meme4ever,LLC,All Rights Reserved</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./login.js"></script>
 </body>
 </html>

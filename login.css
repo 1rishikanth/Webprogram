@@ -2,6 +2,34 @@
 *{
     font-family: 'Poppins',sans-serif;
 }
+.psd{
+    display: flex;
+    position: relative;
+}
+#txt-box-user{
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    min-width: 100px;
+    box-shadow: 0 0 10px #000;
+}
+#txt-box-password{
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+    min-width: 100px;
+    box-shadow: 0 0 10px #000;
+
+}
+#eye{
+    position: absolute;
+    top: 352px;
+    left: 770px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
 .conatiner{
     height: 70vh;
     margin-top: 200px;
